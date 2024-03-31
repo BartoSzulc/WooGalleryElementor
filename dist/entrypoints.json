@@ -1,0 +1,12 @@
+{
+  "app": {
+    "js": [
+      "/wp-content/plugins/elementor-widget/dist/js/runtime.js",
+      "/wp-content/plugins/elementor-widget/dist/js/app.js"
+    ],
+    "css": [
+      "/wp-content/plugins/elementor-widget/dist/css/app.css"
+    ],
+    "dependencies": []
+  }
+}

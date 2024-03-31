@@ -1,0 +1,1 @@
+(self.webpackChunk_roots_bud=self.webpackChunk_roots_bud||[]).push([[143],{"./styles/app.scss":function(){},"./scripts/app.js":function(){}},function(s){var p=function(p){return s(s.s=p)};p("./scripts/app.js"),p("./styles/app.scss")}]);

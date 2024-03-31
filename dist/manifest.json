@@ -1,0 +1,6 @@
+{
+  "app.css": "/wp-content/plugins/elementor-widget/dist/css/app.css",
+  "app.js": "/wp-content/plugins/elementor-widget/dist/js/app.js",
+  "runtime.js": "/wp-content/plugins/elementor-widget/dist/js/runtime.js",
+  "entrypoints.json": "/wp-content/plugins/elementor-widget/dist/entrypoints.json"
+}
