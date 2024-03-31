@@ -13,6 +13,7 @@ export default async (app) => {
        */
       .entry({
         app: ["scripts/app", "styles/app"],
+        
       })
   
       /**
