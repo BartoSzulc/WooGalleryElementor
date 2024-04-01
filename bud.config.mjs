@@ -13,7 +13,7 @@ export default async (app) => {
        */
       .entry({
         app: ["scripts/app", "styles/app"],
-        
+
       })
   
       /**
@@ -24,7 +24,7 @@ export default async (app) => {
       /**
        * Matched files trigger a page reload when modified
        */
-      .watch(["src/templates/*"])
+      .watch(["src/**/*"])
   
       /**
        * Proxy origin (`WP_HOME`)

@@ -1,1 +1,57 @@
 @import 'vendor/frameworks';
+
+
+.woo-gallery {
+    @apply mb-8;
+    .swiper {
+        user-select: auto !important;
+    }
+    .gallery {
+        &-slider {
+            .swiper-slide {
+                @apply flex items-center justify-center h-auto;
+                img {
+                    @apply w-full h-full object-cover object-center;
+                }
+            }
+        }
+        &-thumbs {
+            @apply relative;
+            
+            .swiper-slide {
+                @apply flex cursor-pointer overflow-hidden;
+                
+                img {
+                    @apply w-full h-auto object-cover object-center transition-all duration-700 ease-in-out;
+
+                }
+                &:hover {
+                    img {
+                        @apply scale-110;
+                    }
+                }
+            }
+            .swiper-arrow-left,
+            .swiper-arrow-right {
+                @apply cursor-pointer transition-all duration-500 ease-in-out;  
+                svg {
+                    @apply transition-all duration-500 ease-in-out;
+                }
+                &:hover {
+                    svg {
+                        @apply scale-110;
+                    }
+                }
+                &.swiper-button-disabled {
+                    @apply opacity-50;
+                    &:hover {
+                        svg {
+                            @apply scale-100;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
