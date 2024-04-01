@@ -13,7 +13,7 @@ The Elementor Widget Plugin is a WordPress plugin that adds custom widgets to th
 
 ## Installation
 
-1. Download the latest release from the [releases](https://github.com/BartoSzulc/WooGalleryElementor) page.
+1. Download the latest release from the [releases](https://github.com/BartoSzulc/WooGalleryElementor/releases) page.
 2. Upload the plugin folder to the `/wp-content/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 
